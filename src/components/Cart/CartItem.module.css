@@ -1,0 +1,46 @@
+.item {
+  list-style-type: none;
+  padding: 5px 0 15px 15px;
+  background-color: darkgray;
+  width: 90%;
+  min-height: 6rem;
+  margin: 0 auto 1.5rem;
+  color: white;
+}
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.name-nd-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price {
+  padding-right: 10px;
+  font-size: 1.5rem;
+}
+.quantity-nd-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+.quantity {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.item .buttons button {
+  margin: 10px;
+  width: 2rem;
+  font-size: 1.5rem;
+  background-color: transparent;
+}
+.item .buttons button:hover {
+  background-color: #1ad1b9;
+  color: white;
+  border: none;
+}

@@ -1,0 +1,25 @@
+.content {
+  height: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+  background-color: yellow;
+}
+.content p {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.success {
+  background-color: green;
+  color: black;
+}
+.success p {
+}
+.error {
+  background-color: rgba(222, 17, 17, 0.826);
+  color: black;
+}
+.error p {
+}

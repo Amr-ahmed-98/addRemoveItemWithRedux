@@ -1,0 +1,31 @@
+.button {
+  width: 10rem;
+  height: 2.5rem;
+  background-color: #1ad1b9;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 1.2rem;
+}
+.button:hover {
+  background-color: #03ffdd;
+}
+.button span {
+  padding: 0.5rem;
+}
+.button span:nth-child(2) {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  min-width: 1rem;
+}
+.button:hover span:nth-child(2) {
+  background-color: coral;
+}

@@ -1,0 +1,22 @@
+.content {
+  position: relative;
+  height: 5rem;
+  width: 100%;
+  background-color: rgb(56, 52, 52);
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .title {
+  color: white;
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  align-self: center;
+}
+
+.button {
+  position: absolute;
+  right: 5%;
+  top: 30%;
+}
